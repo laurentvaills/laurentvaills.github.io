@@ -1,0 +1,39 @@
+# Git : latest stable version
+$ sudo add-apt-repository ppa:git-core/ppa
+$ sudo apt-get update
+$ sudo apt-get install git gitk git-gui
+
+$ sudo apt-get most install vim zsh ack-grep dstat socat multitail tree htop curl ccze rar unrar vlc
+
+# Java 
+$ sudo add-apt-repository ppa:webupd8team/java
+$ for i in 6 7 8; do sudo apt-get install oracle-java${i}-installer; done
+$ sudo update-java-alternatives -s java-6-oracle
+
+
+
+# KDE : 
+# http://www.binarytides.com/better-kubuntu-14-04/
+
+$ sudo apt-get install yakuake kde-wallpapers kscreensaver
+$ sudo apt-get install kubuntu-restricted-extras libavcodec-extra
+
+
+# Powersaving
+$ sudo apt-install powertop
+
+M3800 :
+# Install Nvidia driver
+# Then install bumblebee
+
+
+# http://linrunner.de/en/tlp/docs/tlp-linux-advanced-power-management.html
+
+# To see : http://www.webupd8.org/2014/04/10-things-to-do-after-installing-ubuntu.html
+# nvidia-prime, vdpau, ...
+
+# http://www.webupd8.org/2014/04/prevent-your-laptop-from-overheating.html
+
+https://userbase.kde.org/Dolphin/File_Management#.22Places.22_for_system-wide_navigation
+
+
