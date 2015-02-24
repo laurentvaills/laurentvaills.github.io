@@ -1,7 +1,7 @@
 # Git : latest stable version
 $ sudo add-apt-repository ppa:git-core/ppa
 $ sudo apt-get update
-$ sudo apt-get install git gitk git-gui
+$ sudo apt-get install git gitk git-gui git-svn
 
 $ sudo apt-get most install vim zsh ack-grep dstat socat multitail tree htop curl ccze rar unrar vlc
 
