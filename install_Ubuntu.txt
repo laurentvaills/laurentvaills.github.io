@@ -15,7 +15,7 @@ $ sudo update-java-alternatives -s java-6-oracle
 # KDE : 
 # http://www.binarytides.com/better-kubuntu-14-04/
 
-$ sudo apt-get install yakuake kde-wallpapers kscreensaver
+$ sudo apt-get install yakuake kde-wallpapers kscreensaver kompare kdiff3
 $ sudo apt-get install kubuntu-restricted-extras libavcodec-extra
 
 
