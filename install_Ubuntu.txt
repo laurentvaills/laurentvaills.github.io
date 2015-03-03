@@ -36,4 +36,6 @@ M3800 :
 
 https://userbase.kde.org/Dolphin/File_Management#.22Places.22_for_system-wide_navigation
 
-
+# Avoid non breakable space
+https://bugs.launchpad.net/ubuntu/+source/xorg/+bug/218637/comments/11
+In KDE systems this can be done alternatively by going to System Settigns -> Regional & Language -> Keyboard layout -> Xkb Options, and selecting option "Space key outputs usual space at any level." for "Using space key to input non-breakable space character".
