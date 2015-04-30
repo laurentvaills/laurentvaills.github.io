@@ -3,7 +3,7 @@ $ sudo add-apt-repository ppa:git-core/ppa
 $ sudo apt-get update
 $ sudo apt-get install git gitk git-gui git-svn
 
-$ sudo apt-get most install vim zsh ack-grep dstat socat multitail tree htop curl jq ccze rar unrar vlc links
+$ sudo apt-get most install vim zsh ack-grep dstat socat multitail tree htop curl jq ccze rar unrar vlc links httpie
 
 # Java 
 $ sudo add-apt-repository ppa:webupd8team/java
