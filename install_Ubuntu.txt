@@ -14,7 +14,7 @@ $ for i in 6 7 8; do sudo apt-get install oracle-java${i}-installer; done
 $ sudo update-java-alternatives -s java-6-oracle
 
 # Docker
-$ sudo apt-get install docker
+$ sudo apt-get install docker.io
 
 # KDE :
 # http://www.binarytides.com/better-kubuntu-14-04/
