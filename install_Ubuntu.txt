@@ -10,8 +10,8 @@ $ sudo apt-get most install vim zsh ack-grep dstat socat multitail tree htop cur
 
 # Java
 $ sudo add-apt-repository ppa:webupd8team/java
-$ for i in 6 7 8; do sudo apt-get install oracle-java${i}-installer; done
-$ sudo update-java-alternatives -s java-6-oracle
+$ for i in 7 8; do sudo apt-get install oracle-java${i}-installer; done
+$ sudo update-java-alternatives -s java-7-oracle
 
 # Docker
 $ sudo apt-get install docker.io
