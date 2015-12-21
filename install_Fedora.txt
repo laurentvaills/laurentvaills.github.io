@@ -1,1 +1,1 @@
-sudo dnf install most vim zsh ack dstat socat multitail tree htop curl jq ccze vlc links httpie powerline
+sudo dnf install most vim zsh ack dstat socat multitail tree htop curl jq ccze vlc links httpie powerline tmux powertop
