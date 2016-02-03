@@ -1,12 +1,26 @@
+# Update root's password
+# Log out
+# Log as root
+change-uid.sh 
+
+$ sudo apt-get install python-pip
+$ sudo pip install mackup
+# Copy the .mackup.cfg and launch : mackup restore
+
 # First refresh the indexes.
 $ sudo apt-get update
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+wget https://slack-ssb-updates.global.ssl.fastly.net/linux_releases/slack-desktop-1.2.6-amd64.deb
 
 # Git : latest stable version
 $ sudo add-apt-repository ppa:git-core/ppa
 $ sudo apt-get update
 $ sudo apt-get install -y git gitk git-gui
 
-$ sudo apt-get install -y most vim zsh ack-grep dstat socat multitail tree htop curl jq ccze rar unrar vlc links httpie powerline backintime-kde screen tmux powertop
+$ sudo apt-get install -y most vim zsh ack-grep dstat socat multitail tree htop curl jq ccze rar unrar vlc links httpie backintime-kde screen tmux powertop
+
+$ chsh --shel /bin/zsh
 
 # Java
 $ sudo add-apt-repository ppa:webupd8team/java
@@ -20,6 +34,7 @@ $ sudo apt-get install -y docker.io
 # KDE :
 # http://www.binarytides.com/better-kubuntu-14-04/
 # kscreensaver is not available anymore > 14.10
+$ sudo apt-get install -y kscreensaver
 $ sudo apt-get install -y yakuake kde-wallpapers kompare kdiff3 kubuntu-restricted-extras libavcodec-extra
 
 M3800 :
@@ -49,3 +64,4 @@ In KDE systems this can be done alternatively by going to System Settigns -> Reg
 
 # Set the numkey lock on
 
+# Remap lock shortcut : System Settings -> Shortcuts and Gestures -> Global Keyboard Shortcuts -> The KDE Session Manager -> Lock Session.
